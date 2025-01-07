@@ -51,6 +51,8 @@ class ViewController: UIViewController {
         self.popover.direction = .down
         self.popover.delegate = self
         self.popover.show(from: sender, in: self.view)
+        
+//        self.popover.show(point: sender.center, in: self.view)
     }
     
 }

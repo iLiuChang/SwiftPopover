@@ -483,6 +483,9 @@ private extension Popover {
         
     func show() {
         guard let direction = self.direction else {
+#if DEBUG
+            print("Please set the value of `direction`.")
+#endif
             return
         }
         self.setNeedsDisplay()
