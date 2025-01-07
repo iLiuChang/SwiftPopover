@@ -21,7 +21,7 @@ public protocol PopoverDelegate : AnyObject {
     func didDismissPopover(_ popover: Popover)
 }
 
-extension PopoverDelegate {
+public extension PopoverDelegate {
     func willShowPopover(_ popover: Popover) {}
     func willDismissPopover(_ popover: Popover) {}
     func didShowPopover(_ popover: Popover) {}
