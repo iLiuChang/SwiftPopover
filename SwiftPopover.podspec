@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftPopover"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple Popover control in Swift."
   s.homepage     = "https://github.com/iLiuChang/SwiftPopover"
   s.license      = "MIT"
