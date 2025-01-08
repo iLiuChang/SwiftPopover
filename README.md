@@ -30,7 +30,7 @@ A simple Popover control in Swift.
 
 ### CocoaPods
 
-To integrate PagingMenu into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate SwiftPopover into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'SwiftPopover'
