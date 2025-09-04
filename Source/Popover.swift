@@ -67,8 +67,8 @@ open class Popover: UIView {
         let point: CGPoint
         
         if self.direction == nil {
-            if let point = fromView.superview?.convert(fromView.frame.origin, to: nil),
-               point.y + fromView.frame.height + self.arrowSize.height + contentView.frame.height > inView.frame.height {
+            let point = inView.convert(fromView.bounds, from: fromView).origin
+            if point.y + fromView.frame.height + self.arrowSize.height + contentView.frame.height > inView.frame.height {
                 self.direction = .up
             } else {
                 self.direction = .down
